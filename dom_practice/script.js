@@ -43,3 +43,20 @@ pink_div.appendChild(paragraph_in_div);
 
 
 container.appendChild(pink_div);
+
+
+
+function alertFunction(){
+    alert("YAY! YOU DID IT!");
+}
+
+const buttons = document.querySelectorAll("button");
+
+
+buttons.forEach((button) => {
+
+    button.addEventListener("click", () => {
+        alert(button.id);
+    })
+
+})
