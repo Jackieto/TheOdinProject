@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#buttons_div{
+    display: flex;
+    margin: 50px;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#grid_div {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+}
+
+.square {
+ 
+    border: 1px solid #ccc;
+    transition: background-color 0.2s ease;
+    
+}
+
+.square:hover {
+    background-color: black;
+}
