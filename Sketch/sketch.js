@@ -38,9 +38,9 @@ function createGrid(){
 
             square.addEventListener("mouseover", () => draw(square));
             grid_div.appendChild(square);
-            
+
         }
-     
+
     }
 
 }
@@ -55,7 +55,7 @@ function draw(square){
 function clear(){
 
     grid_div.innerHTML = '';
- 
+
 
     createGrid();
 }
